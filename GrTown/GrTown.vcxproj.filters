@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Examples Objects and Behaviors">
+      <UniqueIdentifier>{fc101800-8a2e-4c12-ae02-76fd64cc2471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Examples Objects and Behaviors\Headers">
+      <UniqueIdentifier>{a28ae7f4-f82b-4536-879e-8035171e21a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Examples Objects and Behaviors\Source">
+      <UniqueIdentifier>{aa353a9d-ccb5-47c5-afba-13eb6e25c824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Roads">
+      <UniqueIdentifier>{d1ba2177-1fad-4e53-99f8-93cf3f1a1dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Roads\Source">
+      <UniqueIdentifier>{d3fbe479-af27-4d05-bf50-2d669cf52004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Roads\Headers">
+      <UniqueIdentifier>{a014c21a-290d-4ca2-84ea-cd875d7c63fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Core">
+      <UniqueIdentifier>{916b80a5-22d3-4f76-989e-1558d4cef593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Core\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Engine Core\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{95a59eb6-39f8-49bd-86af-5c76e39df026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Headers">
+      <UniqueIdentifier>{b239bef0-c01c-4547-905b-0fe1c7e620bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Source">
+      <UniqueIdentifier>{9b6a38e2-795c-4654-ab32-9639d4cf6ae9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Examples\Cars.H">
+      <Filter>Examples Objects and Behaviors\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\Objects.H">
+      <Filter>Examples Objects and Behaviors\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\Suburbs.H">
+      <Filter>Examples Objects and Behaviors\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Roads\Drive.H">
+      <Filter>Roads\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Roads\Roads.H">
+      <Filter>Roads\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavior.H">
+      <Filter>Engine Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingState.H">
+      <Filter>Engine Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawUtils.H">
+      <Filter>Engine Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCamera.H">
+      <Filter>Engine Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsTownUI.H">
+      <Filter>Engine Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GrObject.H">
+      <Filter>Engine Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GrTown_PCH.H">
+      <Filter>Engine Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GrWorld.H">
+      <Filter>Engine Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MMatrix.H">
+      <Filter>Engine Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TownViewWidget.H">
+      <Filter>Engine Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utilities\libtarga.h">
+      <Filter>Utilities\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utilities\ShaderTools.H">
+      <Filter>Utilities\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utilities\Texture.H">
+      <Filter>Utilities\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\SimpleBehaviors.H">
+      <Filter>Examples Objects and Behaviors\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Engine Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Engine Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Engine Core\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Examples\Cars.cpp">
+      <Filter>Examples Objects and Behaviors\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\Objects.cpp">
+      <Filter>Examples Objects and Behaviors\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\SimpleBehaviors.cpp">
+      <Filter>Examples Objects and Behaviors\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\Suburbs.cpp">
+      <Filter>Examples Objects and Behaviors\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Roads\Drive.cpp">
+      <Filter>Roads\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Roads\Roads.cpp">
+      <Filter>Roads\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavior.cpp">
+      <Filter>Engine Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingState.cpp">
+      <Filter>Engine Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawUtils.cpp">
+      <Filter>Engine Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCamera.cpp">
+      <Filter>Engine Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsTownUI.cxx">
+      <Filter>Engine Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GrObject.cpp">
+      <Filter>Engine Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GrWorld.cpp">
+      <Filter>Engine Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MMatrix.cpp">
+      <Filter>Engine Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TownViewWidget.cpp">
+      <Filter>Engine Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utilities\libtarga.c">
+      <Filter>Utilities\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utilities\ShaderTools.cpp">
+      <Filter>Utilities\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utilities\Texture.cpp">
+      <Filter>Utilities\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Engine Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Engine Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Engine Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Engine Core\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
