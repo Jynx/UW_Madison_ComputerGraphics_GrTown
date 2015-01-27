@@ -1,3 +1,5 @@
+DEMO OF PROJECT: https://www.youtube.com/watch?v=JfdcNUYKirY
+
 This is a project I completed in Fall of 2014 while attending the University of Wisconsin, Madison. 
 We were provided framework code that was written entirely in Legacy openGL using only immediate mode drawing. 
 The basic project consisted of a working, living “Graphics Town” that had very basic houses, roads, some moving cars, and an older styled global lighting system. 
